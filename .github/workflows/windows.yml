@@ -19,8 +19,13 @@ jobs:
       - run: get-command python.exe
       - run: |
           ls c:\
+          ls C:\hostedtoolcache\windows\Python\3.9.0\x64
+          ls C:\hostedtoolcache\windows\Python\3.9.0\
+          ls C:\hostedtoolcache\windows\Python\
+          ls C:\hostedtoolcache\windows\
           ls c:\Python39
           ls c:\python38
           ls c:\python37
           ls c:\python36
+      - run: ls C:\hostedtoolcache\windows\Python
 
