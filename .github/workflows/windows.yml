@@ -19,8 +19,8 @@ jobs:
       - run: get-command python.exe
       - run: |
           ls c:\
-          ls c:\python39\python.exe
-          ls c:\python38\python.exe
-          ls c:\python37\python.exe
-          ls c:\python36\python.exe
+          ls c:\Python39
+          ls c:\python38
+          ls c:\python37
+          ls c:\python36
 
